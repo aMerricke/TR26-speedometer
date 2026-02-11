@@ -11,4 +11,4 @@ ASSOCIATED COMPONENTS:
 ASSOCIATED SOFTWARE:
 - Arduino IDE: https://www.arduino.cc/en/software
 - RaceCapture App: https://podium.live/software
-- Arduino MCP2515 CAN Interface Library: https://github.com/autowp/arduino-mcp2515/tree/master
+- Arduino MCP2515 CAN Interface Library: https://github.com/coryjfowler/MCP_CAN_lib

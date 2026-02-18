@@ -1,0 +1,1200 @@
+{
+  "app_prefs": {
+    "alerts": {},
+    "analysis": {
+      "dashboard_fd02a892-d2fb-11ea-b330-60a44c5f184c": {
+        "dash_name": "Map/Speed/Traction",
+        "dash_type": "flowgauge",
+        "gauges": [
+          [
+            {
+              "config": {
+                "Gauge Type": {
+                  "gauge": "Track Map"
+                },
+                "Heat": {},
+                "Splitter height": 200,
+                "Track": {
+                  "last_center": [
+                    39.540863,
+                    -122.33139
+                  ]
+                }
+              }
+            },
+            {
+              "config": {
+                "Gauge Type": {
+                  "gauge": "Scatter Plot"
+                },
+                "Heat": {},
+                "Splitter height": 200,
+                "X Axis": {
+                  "channel": "AccelX"
+                },
+                "Y Axis": {
+                  "channel": "AccelY"
+                }
+              }
+            }
+          ],
+          [
+            {
+              "config": {
+                "Channel": {
+                  "channel": [
+                    "Speed"
+                  ]
+                },
+                "Gauge Type": {
+                  "gauge": "Line Chart"
+                },
+                "Splitter height": 200
+              }
+            }
+          ]
+        ],
+        "locked": false
+      }
+    },
+    "dashboard": {
+      "dashboard_01490eaf-0c66-11f1-8a86-d03957156bfe": {
+        "dash_name": "Raw Channels",
+        "dash_type": "freeform",
+        "gauges": [
+          {
+            "center_x": 0.5,
+            "center_y": 0.5,
+            "config": {
+              "Gauge Type": {
+                "gauge": "Raw Channels"
+              }
+            },
+            "size_hint_x": 1,
+            "size_hint_y": 1
+          }
+        ],
+        "locked": true
+      },
+      "dashboard_f4beab04-d2fb-11ea-b330-60a44c5f184c": {
+        "dash_name": "Predictive Timer",
+        "dash_type": "freeform",
+        "gauges": [],
+        "locked": false
+      },
+      "dashboard_fd02a892-d2fb-11ea-b330-60a44c5f184c": {
+        "dash_name": "Raw Channels",
+        "dash_type": "freeform",
+        "gauges": [
+          {
+            "center_x": 0.4887270572372999,
+            "center_y": 0.5304397015164887,
+            "config": {
+              "Gauge Type": {
+                "gauge": "Raw Channels"
+              }
+            },
+            "size_hint_x": 0.9774541144745998,
+            "size_hint_y": 0.9265586134959479
+          }
+        ],
+        "locked": false
+      }
+    },
+    "dashboard_bar": {
+      "gauges": {
+        "gauges": [
+          {
+            "config": {
+              "Channel": {
+                "channel": "Utc"
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              },
+              "Settings": {
+                "visual_settings": {
+                  "assets_md5_hash": {
+                    "background": ""
+                  },
+                  "background_color": [
+                    0.11764705882352941,
+                    0.11764705882352941,
+                    0.11764705882352941,
+                    1
+                  ],
+                  "channel_alert_element": "background",
+                  "channel_labels_colors": [
+                    [
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      1
+                    ],
+                    [
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      1
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ],
+                  "channel_labels_font_size_pct": [
+                    0.56,
+                    0.22,
+                    0
+                  ],
+                  "channel_name_position": "bottom",
+                  "channel_unit_position": "top",
+                  "corner_radius_pct": 0.46,
+                  "gauge_grouping_layout": [
+                    1,
+                    4
+                  ],
+                  "outline_color": [
+                    0.10196078431372549,
+                    0.7372549019607844,
+                    0.611764705882353,
+                    1
+                  ],
+                  "outline_thickness_pct": 0.09,
+                  "show_channel_name": true,
+                  "show_channel_unit": false,
+                  "show_outline": true
+                }
+              },
+              "Text Values": {}
+            }
+          },
+          {
+            "config": {
+              "Channel": {
+                "channel": "AccelZ",
+                "overrides": {
+                  "CurrentLap": {}
+                }
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              },
+              "Settings": {
+                "visual_settings": {
+                  "assets_md5_hash": {
+                    "background": ""
+                  },
+                  "background_color": [
+                    0.11764705882352941,
+                    0.11764705882352941,
+                    0.11764705882352941,
+                    1
+                  ],
+                  "channel_alert_element": "background",
+                  "channel_labels_colors": [
+                    [
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      1
+                    ],
+                    [
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      1
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ],
+                  "channel_labels_font_size_pct": [
+                    0.56,
+                    0.22,
+                    0
+                  ],
+                  "channel_name_position": "bottom",
+                  "channel_unit_position": "top",
+                  "corner_radius_pct": 0.46,
+                  "gauge_grouping_layout": [
+                    1,
+                    4
+                  ],
+                  "outline_color": [
+                    0.9529411764705882,
+                    0.611764705882353,
+                    0.07058823529411765,
+                    1
+                  ],
+                  "outline_thickness_pct": 0.09,
+                  "show_channel_name": true,
+                  "show_channel_unit": false,
+                  "show_outline": true
+                }
+              },
+              "Text Values": {}
+            }
+          },
+          {
+            "config": {
+              "Channel": {
+                "channel": "SessionTime"
+              },
+              "Gauge Type": {
+                "gauge": "Digital"
+              },
+              "Settings": {
+                "visual_settings": {
+                  "assets_md5_hash": {
+                    "background": ""
+                  },
+                  "background_color": [
+                    0.11764705882352941,
+                    0.11764705882352941,
+                    0.11764705882352941,
+                    1
+                  ],
+                  "channel_alert_element": "background",
+                  "channel_labels_colors": [
+                    [
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      1
+                    ],
+                    [
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      0.8784313725490196,
+                      1
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ],
+                  "channel_labels_font_size_pct": [
+                    0.56,
+                    0.22,
+                    0
+                  ],
+                  "channel_name_position": "bottom",
+                  "channel_unit_position": "top",
+                  "corner_radius_pct": 0.46,
+                  "gauge_grouping_layout": [
+                    1,
+                    4
+                  ],
+                  "outline_color": [
+                    0.1607843137254902,
+                    0.5019607843137255,
+                    0.7254901960784313,
+                    1
+                  ],
+                  "outline_thickness_pct": 0.09,
+                  "show_channel_name": true,
+                  "show_channel_unit": false,
+                  "show_outline": true
+                }
+              },
+              "Text Values": {}
+            }
+          }
+        ]
+      }
+    },
+    "general_prefs": {
+      "analysis_map": {
+        "track_selections": ""
+      },
+      "analysis_preferences": {
+        "selected_analysis_channels": "Speed",
+        "selected_sessions_laps": "{\"sessions\": {}}"
+      },
+      "dashboard_preferences": {
+        "alerts_dwell_time": "2",
+        "alerts_minimize_time": "5",
+        "camera_preferences": "{'0': '', '1': ''}",
+        "last_channel_meta": "[{\"nm\": \"Interval\", \"ut\": \"ms\", \"min\": 0, \"max\": 0, \"prec\": 0, \"sr\": 1, \"type\": 0}, {\"nm\": \"Utc\", \"ut\": \"ms\", \"min\": 0, \"max\": 0, \"prec\": 0, \"sr\": 1, \"type\": 0}, {\"nm\": \"Analog1\", \"ut\": \"V\", \"min\": 0.0, \"max\": 5.0, \"prec\": 3, \"sr\": 100, \"type\": 0}, {\"nm\": \"Battery\", \"ut\": \"Volts\", \"min\": 0.0, \"max\": 20.0, \"prec\": 2, \"sr\": 1, \"type\": 0}, {\"nm\": \"AccelX\", \"ut\": \"G\", \"min\": -3.0, \"max\": 3.0, \"prec\": 2, \"sr\": 100, \"type\": 0}, {\"nm\": \"AccelY\", \"ut\": \"G\", \"min\": -3.0, \"max\": 3.0, \"prec\": 2, \"sr\": 100, \"type\": 0}, {\"nm\": \"AccelZ\", \"ut\": \"G\", \"min\": -3.0, \"max\": 3.0, \"prec\": 2, \"sr\": 100, \"type\": 0}, {\"nm\": \"Yaw\", \"ut\": \"Deg/Sec\", \"min\": -120, \"max\": 120, \"prec\": 0, \"sr\": 100, \"type\": 0}, {\"nm\": \"Pitch\", \"ut\": \"Deg/Sec\", \"min\": -120, \"max\": 120, \"prec\": 0, \"sr\": 100, \"type\": 0}, {\"nm\": \"Roll\", \"ut\": \"Deg/Sec\", \"min\": -120, \"max\": 120, \"prec\": 0, \"sr\": 100, \"type\": 0}, {\"nm\": \"Gsum\", \"ut\": \"G\", \"min\": 0.0, \"max\": 3.0, \"prec\": 2, \"sr\": 100, \"type\": 0}, {\"nm\": \"GsumMax\", \"ut\": \"G\", \"min\": 0.0, \"max\": 3.0, \"prec\": 2, \"sr\": 100, \"type\": 0}, {\"nm\": \"GsumPct\", \"ut\": \"%\", \"min\": 0, \"max\": 100, \"prec\": 0, \"sr\": 100, \"type\": 0}, {\"nm\": \"RPM\", \"ut\": \"\", \"min\": 0, \"max\": 10000, \"prec\": 0, \"sr\": 50, \"type\": 0}, {\"nm\": \"Latitude\", \"ut\": \"Degrees\", \"min\": -180.0, \"max\": 180.0, \"prec\": 6, \"sr\": 10, \"type\": 0}, {\"nm\": \"Longitude\", \"ut\": \"Degrees\", \"min\": -180.0, \"max\": 180.0, \"prec\": 6, \"sr\": 10, \"type\": 0}, {\"nm\": \"Speed\", \"ut\": \"mph\", \"min\": 0.0, \"max\": 150.0, \"prec\": 2, \"sr\": 10, \"type\": 0}, {\"nm\": \"Altitude\", \"ut\": \"ft\", \"min\": 0.0, \"max\": 4000.0, \"prec\": 1, \"sr\": 10, \"type\": 0}, {\"nm\": \"GPSSats\", \"ut\": \"\", \"min\": 0, \"max\": 20, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"GPSQual\", \"ut\": \"\", \"min\": 0, \"max\": 5, \"prec\": 0, \"sr\": 10, \"type\": 0}, {\"nm\": \"GPSDOP\", \"ut\": \"\", \"min\": 0.0, \"max\": 20.0, \"prec\": 1, \"sr\": 10, \"type\": 0}, {\"nm\": \"LapDelta\", \"ut\": \"s\", \"min\": 0.0, \"max\": 0.0, \"prec\": 4, \"sr\": 10, \"type\": 0}, {\"nm\": \"BestLap\", \"ut\": \"Min\", \"min\": 0.0, \"max\": 0.0, \"prec\": 4, \"sr\": 10, \"type\": 0}]",
+        "last_dash_screen": "dashboard_01490eaf-0c66-11f1-8a86-d03957156bfe",
+        "pitstoptimer_alert_speed": "25",
+        "pitstoptimer_enabled": "1",
+        "pitstoptimer_exit_speed": "55",
+        "pitstoptimer_trigger_speed": "5",
+        "pittocaralerts_enabled": "1",
+        "pittocaralerts_timeout": "60",
+        "remote_dash_nav_enabled": "1"
+      },
+      "help": {
+        "analysis_welcome": "False",
+        "can_mapping_help": "False",
+        "dashboard_gauge_help": "False",
+        "lap_setup": "False",
+        "rc_write_config": "False"
+      },
+      "preferences": {
+        "config_file_dir": "C:\\Users\\Merrick\\Downloads",
+        "conn_type": "USB",
+        "dbc_file_dir": "C:\\Users\\Documents",
+        "display_orientation": "Sensor Landscape",
+        "distance_units": "miles",
+        "export_file_dir": "C:\\Users\\Documents",
+        "firmware_dir": "C:\\Users\\Documents",
+        "full_screen_mode": "0",
+        "global_help": "True",
+        "import_datalog_dir": "C:\\Users\\Documents",
+        "import_image_dir": "C:\\Users\\Documents",
+        "import_video_dir": "C:\\Users\\Documents",
+        "last_known_device": "COM3",
+        "preset_file_dir": "C:\\Users\\Documents",
+        "record_session": "1",
+        "send_telemetry": "0",
+        "show_laptimes": "1",
+        "startup_screen": "Home Page",
+        "temperature_units": "Fahrenheit"
+      },
+      "setup": {
+        "setup_enabled": "False"
+      },
+      "track_detection": {
+        "last_selected_track_id": "0",
+        "last_selected_track_timestamp": "0",
+        "user_cancelled_location": "38.990711,-76.939858"
+      }
+    }
+  },
+  "rcpCfg": {
+    "analogCfg": {
+      "0": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.4,
+            0.87,
+            1.88,
+            3.2,
+            4.72
+          ],
+          "scal": [
+            302.0,
+            239.0,
+            176.0,
+            122.0,
+            32.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog1",
+        "offset": 0.0,
+        "prec": 3,
+        "scalMod": 0,
+        "scaling": 1.0,
+        "sr": 100,
+        "ut": "V"
+      },
+      "1": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.4,
+            0.87,
+            1.88,
+            3.2,
+            4.72
+          ],
+          "scal": [
+            302.0,
+            239.0,
+            176.0,
+            122.0,
+            32.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog2",
+        "offset": 0.0,
+        "prec": 3,
+        "scalMod": 0,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": ""
+      },
+      "2": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.5,
+            4.5,
+            4.5,
+            4.5,
+            4.5
+          ],
+          "scal": [
+            0.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog3",
+        "offset": 0.0,
+        "prec": 3,
+        "scalMod": 0,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": ""
+      },
+      "3": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog4",
+        "offset": 0.0,
+        "prec": 3,
+        "scalMod": 0,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "4": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog5",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "5": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog6",
+        "offset": 0.0,
+        "prec": 3,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "6": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog7",
+        "offset": 0.0,
+        "prec": 3,
+        "scalMod": 0,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "7": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5,
+        "min": 0,
+        "nm": "Analog8",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": ""
+      },
+      "8": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 20.0,
+        "min": 0.0,
+        "nm": "Battery",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "Volts"
+      }
+    },
+    "camCtrlCfg": {
+      "channel": "Speed",
+      "en": false,
+      "makeModel": 0,
+      "start": {
+        "gt": true,
+        "thresh": 40.0,
+        "time": 5
+      },
+      "stop": {
+        "gt": false,
+        "thresh": 25.0,
+        "time": 10
+      }
+    },
+    "canCfg": {
+      "baud": [
+        500000,
+        500000
+      ],
+      "en": 1,
+      "term": [
+        0,
+        0
+      ]
+    },
+    "canChanCfg": {
+      "chans": [],
+      "en": 0
+    },
+    "capabilities": {
+      "channels": {
+        "analog": 9,
+        "can": 2,
+        "canChan": 100,
+        "gpio": 3,
+        "imu": 6,
+        "pwm": 0,
+        "timer": 4
+      },
+      "db": {
+        "script": 16384,
+        "tracks": 50
+      },
+      "flags": [
+        "activetrack",
+        "adc",
+        "bt",
+        "can",
+        "can_term",
+        "cell",
+        "gpio",
+        "gps",
+        "imu",
+        "lua",
+        "obd2",
+        "telemstream",
+        "timer",
+        "tracks",
+        "usb",
+        "wifi",
+        "sd",
+        "camctl"
+      ],
+      "sampleRates": {
+        "gps": 50,
+        "sensor": 1000
+      }
+    },
+    "connCfg": {
+      "btCfg": {
+        "btEn": 1,
+        "name": "",
+        "pass": ""
+      },
+      "cellCfg": {
+        "apnHost": "fp.com.attz",
+        "apnPass": "",
+        "apnUser": "",
+        "cellEn": 1,
+        "profile": "0"
+      },
+      "telCfg": {
+        "bgStream": 1,
+        "deviceId": "1234"
+      },
+      "wifiTelCfg": {
+        "en": 0
+      }
+    },
+    "driverIdCfg": {
+      "drivers": [],
+      "en": 0,
+      "hrEn": 0
+    },
+    "gpioCfg": {
+      "0": {
+        "max": 1.0,
+        "min": 0.0,
+        "mode": 0,
+        "nm": "GPIO1",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "1": {
+        "max": 1.0,
+        "min": 0.0,
+        "mode": 0,
+        "nm": "GPIO2",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "2": {
+        "max": 1.0,
+        "min": 0.0,
+        "mode": 0,
+        "nm": "GPIO3",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      }
+    },
+    "gpsCfg": {
+      "alt": 1,
+      "dop": 1,
+      "pos": 1,
+      "qual": 1,
+      "sats": 1,
+      "speed": 1,
+      "sr": 10
+    },
+    "imuCfg": {
+      "0": {
+        "alpha": 0.03,
+        "chan": 0,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelX",
+        "prec": 2,
+        "sr": 100,
+        "ut": "G",
+        "zeroVal": -834
+      },
+      "1": {
+        "alpha": 0.03,
+        "chan": 1,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelY",
+        "prec": 2,
+        "sr": 100,
+        "ut": "G",
+        "zeroVal": -676
+      },
+      "2": {
+        "alpha": 0.03,
+        "chan": 2,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelZ",
+        "prec": 2,
+        "sr": 100,
+        "ut": "G",
+        "zeroVal": -1044
+      },
+      "3": {
+        "alpha": 0.03,
+        "chan": 3,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Yaw",
+        "prec": 0,
+        "sr": 100,
+        "ut": "Deg/Sec",
+        "zeroVal": -54
+      },
+      "4": {
+        "alpha": 0.03,
+        "chan": 4,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Pitch",
+        "prec": 0,
+        "sr": 100,
+        "ut": "Deg/Sec",
+        "zeroVal": -1
+      },
+      "5": {
+        "alpha": 0.03,
+        "chan": 5,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Roll",
+        "prec": 0,
+        "sr": 100,
+        "ut": "Deg/Sec",
+        "zeroVal": 52
+      }
+    },
+    "lapCfg": {
+      "bestLap": {
+        "max": 0.0,
+        "min": 0.0,
+        "nm": "BestLap",
+        "prec": 4,
+        "sr": 10,
+        "ut": "Min"
+      },
+      "currentLap": {
+        "max": 0,
+        "min": 0,
+        "nm": "CurrentLap",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "dist": {
+        "max": 0,
+        "min": 0,
+        "nm": "Distance",
+        "prec": 2,
+        "sr": 0,
+        "ut": "mi"
+      },
+      "elapsedTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "ElapsedTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "lapCount": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapCount",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "lapTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "predTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "PredTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "sector": {
+        "max": 0,
+        "min": 0,
+        "nm": "Sector",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "sectorTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "SectorTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "sessionTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "SessionTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      }
+    },
+    "obd2Cfg": {
+      "en": 0,
+      "pids": []
+    },
+    "pwmCfg": {},
+    "scriptCfg": {
+      "data": "local function pack_int32_le(x)\n    x = math.floor(x + (x >= 0 and 0.5 or -0.5))\n    if x > 2147483647 then x = 2147483647 end\n    if x < -2147483648 then x = -2147483648 end\n\n    if x < 0 then x = x + 4294967296 end\n\n    local b0 = x % 256\n    local b1 = math.floor(x / 256) % 256\n    local b2 = math.floor(x / 65536) % 256\n    local b3 = math.floor(x / 16777216) % 256\n    return b0, b1, b2, b3\nend\n\nsetTickRate(1000)\n\nprintln(\"initCAN1:\", initCAN(0, 500000))\nprintln(\"initCAN2:\", initCAN(1, 500000))\n\nfunction onTick()\n\tspeed = getGpsSpeed() -- speed in MPH\n\tprintln(speed)\n    local a,b,c,d = pack_int32_le(speed*10000)\n    local response = txCAN(1, 1234, 0, {a,b,c,d})\n\n\t-- pitch = getChannel(\"Pitch\")\n    -- local a,b,c,d = pack_int32_le(pitch*10000)\n    -- local response = txCAN(1, 1234, 0, {a,b,c,d})\n    -- print(\"The value of pitch was: \")\n    -- println(pitch)\n\t-- println(response)    \nend",
+      "page": null
+    },
+    "sdLogCtrlCfg": {
+      "channel": "Speed",
+      "en": false,
+      "start": {
+        "gt": true,
+        "thresh": 40.0,
+        "time": 5
+      },
+      "stop": {
+        "gt": false,
+        "thresh": 25.0,
+        "time": 10
+      }
+    },
+    "timerCfg": {
+      "0": {
+        "alpha": 1.0,
+        "max": 10000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 50,
+        "st": 0,
+        "ut": ""
+      },
+      "1": {
+        "alpha": 1.0,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM2",
+        "ppr": 24,
+        "prec": 0,
+        "speed": 0,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      },
+      "2": {
+        "alpha": 1.0,
+        "max": 10000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM3",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": ""
+      },
+      "3": {
+        "alpha": 1.0,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM4",
+        "ppr": 1,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      }
+    },
+    "trackCfg": {
+      "autoDetect": 1,
+      "rad": 0.0001,
+      "track": {
+        "id": 0,
+        "sec": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "sf": [
+          0.0,
+          0.0
+        ],
+        "type": 0
+      }
+    },
+    "trackDb": {
+      "size": 1,
+      "tracks": [
+        {
+          "id": 0,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              3735928559
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            0.0,
+            0.0
+          ],
+          "type": 0
+        }
+      ]
+    },
+    "ver": {
+      "bugfix": 2,
+      "fname": "RaceCapture/Pro MK3",
+      "git_info": "2.22.2",
+      "major": 2,
+      "minor": 22,
+      "name": "RCP_MK3"
+    },
+    "wifiCfg": {
+      "active": true,
+      "ap": {
+        "active": true,
+        "channel": 11,
+        "encryption": "none",
+        "password": "",
+        "ssid": "RaceCapture/Pro MK3 934"
+      },
+      "client": {
+        "active": false,
+        "password": "",
+        "ssid": ""
+      }
+    }
+  }
+}
